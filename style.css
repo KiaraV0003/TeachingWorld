@@ -1,0 +1,672 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand;
+}
+
+body{
+    background-color: #DEB6D5
+}
+
+#container{
+    width: 70em;
+    background-color: #DEB6D5;
+    margin: 1.5em auto;
+    padding: 0.5em;
+}
+
+
+
+
+
+header{
+    height: 12em;
+    width: auto;
+    border-radius: 15px;
+    padding: 0 1em;
+    background: #F1E0F7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    height: 10em;
+    border-radius: 4em;
+    margin-right: 0.5em;
+}
+
+header p{
+    font-family: Welcome Valentine;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header-img{
+    height: 9em;
+    border-radius: 2em;
+}
+
+
+
+
+
+nav{
+    height: 4.5em;
+    background: #F3ED95;
+    border-radius: 15px;
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+nav a{
+    font-family: Itim;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5em 2.5em;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #551A8B;
+}
+
+nav a:hover{
+    background: #EB94CF;
+    color: #0000EE;
+}
+
+
+
+
+
+main #title{
+    width: auto;
+    background-color: #F1E0F7;
+    border-radius: 15px;
+    padding: 0.5em 0;
+    font-size: 2.5rem;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    font-family: Itim;
+    text-align: center;
+    margin-bottom: 16px;
+    color: black;
+}
+
+
+
+
+
+#tipo-a{
+    background: #CD98BC;
+    height: auto;
+    width: 28em;
+    border-radius: 15px;
+    padding: 1em;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#tipo-a .title{
+    font-family: Lobster;
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+}
+
+#tipo-a img{
+    height: 13.5em;
+}
+
+#tipo-b{
+    background: #EED7F4;
+    height: auto;
+    width: 40em;
+    border-radius: 15px;
+    padding: 1em;
+    display: inline-flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+    float: right;
+}
+
+#tipo-b .title{
+    width: 15.5em;
+    font-family: Lobster;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+#tipo-b .descripcion{
+    width: 31.5em;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#tipo-b img{
+    height: 17em;
+    margin-left: 1em;
+    margin-right: 2em;
+}
+
+#tipo-b ol{
+    width: 20em;
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.6em;
+}
+
+#tipo-b ol li{
+    list-style: inside;
+    margin: 0.1em 0;
+}
+
+
+
+
+
+footer{
+    height: 15em;
+    border-radius: 15px;
+    padding: 0 1em;
+    background: #F3ED95;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.footer-img{
+    height: 13em;
+    border-radius: 0.3em;
+}
+
+footer ul{
+    height: 13em;
+    width: 29em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+footer ul a{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+footer ul a:hover{
+    font-weight: 700;
+    color: #0000EE;
+    text-decoration: underline;
+}
+
+
+
+
+
+/*------Index------*/
+
+
+.index-seccion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.index-seccion #tipo-a{
+    background: #CD98BC;
+    height: auto;
+    width: 28em;
+    border-radius: 15px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.index-seccion #tipo-a .title{
+    font-family: Lobster;
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+}
+
+.index-seccion #tipo-a img{
+    height: 15em;
+}
+
+
+
+
+
+.index-seccion #tipo-b{
+    background: #EED7F4;
+    height: auto;
+    width: 40em;
+    border-radius: 15px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.index-seccion #tipo-b .title{
+    font-family: Lobster;
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+}
+
+.index-seccion #tipo-b .descripcion{
+    width: 28em;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.index-seccion #tipo-b img{
+    height: 17em;
+    margin-top: 1em;
+}
+
+.index-seccion #tipo-b ul{
+    width: 22em;
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+}
+
+.index-seccion #tipo-b li{
+    list-style: inside;
+    margin: 0.1em 0;
+}
+
+
+
+
+
+.index-seccion #tipo-b-seccion{
+    background: #EED7F4;
+    height: auto;
+    width: 40em;
+    border-radius: 15px;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.index-seccion .tipo-b-divs{
+    height: 9.5em;
+    width: 18.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.index-seccion .tipo-b-divs .subtitle{
+    margin-bottom: 0.5em;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.index-seccion .tipo-b-divs img{
+    height: 6.5em;
+}
+
+
+
+
+
+/*------Instituciones------*/
+
+
+#instituciones{
+    background: #DE99B8;
+    width: 69em;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    padding: 1em;
+}
+
+#instituciones div{
+    width: 33em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5em 2em;
+}
+
+#instituciones img{
+    width: 7em;
+    margin-left: 1em;
+}
+
+#instituciones p{
+    background: #F3ED95;
+    height: 5.5em;
+    width: 15em;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5em 1em;
+    display: flex;
+    align-items: center;
+    margin-right: 1em;
+}
+
+
+
+
+
+
+/*------Grados------*/
+
+
+#grados-tipo-a{
+    background: #CD98BC;
+    height: auto;
+    width: 35em;
+    border-radius: 15px;
+    padding: 1em;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#grados-tipo-a .title{
+    font-family: Lobster;
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+}
+
+#grados-tipo-a img{
+    height: 11.5em;
+}
+
+
+
+#grados-tipo-b{
+    background: #EED7F4;
+    height: 27.3em;
+    width: 33em;
+    border-radius: 15px;
+    padding: 1em;
+    display: inline-flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+    float: right;
+    justify-content: space-between;
+}
+
+#grados-tipo-b .title{
+    width: 12.4em;
+    font-family: Lobster;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+#grados-tipo-b .descripcion{
+    width: 10.5em;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 1em;
+    margin-top: 0.2em;
+    display: flex;
+    align-items: center;
+}
+
+#grados-tipo-b img{
+    height: 14em;
+    margin-top: 1.7em;
+    margin-right: 1em;
+}
+
+#edu-niv{
+    background: #DE99B8;
+    width: auto;
+    height: 28em;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+
+#edu-niv img{
+    height: 24em;
+}
+
+#edu-niv div{
+    height: 24em;
+    width: 38em;
+    background: #EED7F4;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+#edu-niv a{
+    background: #F3ED95;
+    height: 3.4em;
+    width: 24em;
+    font-family: Itim;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #551A8B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.2em;
+}
+
+#edu-niv a:hover{
+    background: #EB94CF;
+    color: #0000EE;
+}
+
+#edu-niv-secundaria{
+    background: #DE99B8;
+    width: auto;
+    height: 34em;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+
+#edu-niv-secundaria img{
+    height: 24em;
+}
+
+#edu-niv-secundaria div{
+    height: 30em;
+    width: 38em;
+    background: #EED7F4;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+#edu-niv-secundaria a{
+    background: #F3ED95;
+    height: 3.4em;
+    width: 24em;
+    font-family: Itim;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #551A8B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.2em;
+}
+
+#edu-niv-secundaria a:hover{
+    background: #EB94CF;
+    color: #0000EE;
+}
+
+
+/*------Profesores------*/
+
+
+.prof-seccion{
+    height: auto;
+    border-radius: 15px;
+    background: #DE99B8;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.prof-seccion #perfil-img{
+    width: 60em;
+    height: 17.5em;
+    background: #F3ED95;
+    margin-right: 2em;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prof-seccion #perfil-img img{
+    height: 90%;
+    border-radius: 15px;
+}
+
+.prof-seccion #info-prof{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.prof-seccion #info-seccion{
+    width: 40.5em;
+}
+
+.prof-seccion #info-seccion2{
+    width: 40.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+
+.prof-seccion #info-prof .title{
+    font-family: Lobster;
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+}
+
+.prof-seccion #info-prof .descripcion{
+    margin-left: 1.5em;
+    width: 29em;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.prof-seccion #info-prof .visit{
+    width: 8em;
+    font-family: Itim;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5em;
+    background-color: #F3ED95;
+    color: #551A8B;
+    text-align: center;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.prof-seccion #telefono-prof{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.prof-seccion #telefono-prof .telf{
+    height: 2.1em;
+    background-color: #deb6d5;
+    color: #551a8b;
+    font-weight: bold;
+    font-family: Itim;
+    text-align: center;
+    padding: 0 0.7em;
+    display: flex;
+    font-size: 1.5rem;
+    border-radius: 15px 0 0 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.prof-seccion #telefono-prof .Ntelf{
+    height: 2.1em;
+    background-color: #F1E0F7;
+    font-size: 1.5rem;
+    padding: 0 0.7em;
+    border-radius: 0 15px 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
